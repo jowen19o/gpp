@@ -261,6 +261,10 @@ dd {
   vertical-align: middle
 }
 
+.icons {
+  height:60px
+}
+
 img {
   height: auto;
   max-width: 100%;
