@@ -21,6 +21,10 @@ figcaption, figure, main {
   display: block
 }
 
+.small-discription {
+  font-size: 14px
+}
+
 figure {
   margin: 1em 40px
 }
