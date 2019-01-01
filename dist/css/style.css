@@ -1213,16 +1213,9 @@ button, input, select, textarea, label {
   border-radius: 4px 4px 0 0
 }
 
-.hero-media::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  box-shadow: 0 16px 48px #E3E7EB;
-  mix-blend-mode: multiply
-}
+
+
+
 
 @supports (-ms-ime-align: auto) {
   .hero-media::before {
