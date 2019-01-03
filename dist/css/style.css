@@ -1201,6 +1201,11 @@ button, input, select, textarea, label {
   overflow: hidden
 }
 
+.herochange{
+  position: relative;
+  overflow: hidden
+}
+
 .hero-paragraph {
   margin-bottom: 32px
 }
@@ -1536,7 +1541,7 @@ button, input, select, textarea, label {
   }
 
   .pricing .section-title {
-    margin-bottom: 64px
+    margin-bottom: 40px
   }
 }
 
@@ -1577,7 +1582,7 @@ main {
 @media (min-width: 641px) {
   .section-inner {
     padding-top: 80px;
-    padding-bottom: 80px
+    padding-bottom: 40px
   }
 }
 
