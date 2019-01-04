@@ -8,6 +8,10 @@ body {
   margin: 0
 }
 
+.circleView{
+  -webkit-clip-path: url(#cross);
+}
+
 article, aside, footer, header, nav, section {
   display: block
 }
