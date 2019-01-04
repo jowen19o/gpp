@@ -1130,12 +1130,12 @@ button, input, select, textarea, label {
 
 .button-secondary {
   background: #00cec5;
-  background: linear-gradient(65deg, #00A2B8 -25%, #00F9D2 100%)
+  background: linear-gradient(65deg, #e28a26 0%, #c63649 100%)
 }
 
 .button-secondary:hover {
   background: #00d1c7;
-  background: linear-gradient(65deg, #00a4bb -25%, #00fcd4 100%)
+  background: linear-gradient(65deg, #e28a26 0%, #c63649 100%)
 }
 
 .button-block {
