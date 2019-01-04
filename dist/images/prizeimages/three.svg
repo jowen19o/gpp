@@ -12,6 +12,6 @@
       </defs>
       <path fill="#F6F8FA" d="M0 220V0h200zM480 140v220H280z"/>
       <path fill="#FFF" d="M40 50h400v260H40z" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-      <image  x="40" y="50"  height="100%" width="100%" href="dist/images/GlobalU_PrizePhoto_3.jpg" clip-path="url(#circleView)"/>
+      <image  x="40" y="50"  height="100%" width="100%" href="../GlobalU_PrizePhoto_3.jpg" clip-path="url(#circleView)"/>
   </svg>
 </div>
