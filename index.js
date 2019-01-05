@@ -4,6 +4,7 @@ let test = () => {
 );
 }
 
+
 let test2 = () => {
   mixpanel.track(
     "Clicked Bottom Apply Button"
