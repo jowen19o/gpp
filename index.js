@@ -1,4 +1,4 @@
-let test = () => {
+/*let test = () => {
   mixpanel.track(
     "Clicked Top Apply Button"
 );
@@ -9,3 +9,4 @@ let test2 = () => {
     "Clicked Bottom Apply Button"
   )
 }
+*/
