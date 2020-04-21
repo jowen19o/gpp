@@ -4,6 +4,11 @@ html {
   -webkit-text-size-adjust: 100%
 }
 
+@font-face {
+  font-family: AvenirRegular;
+  src: url(../fonts/AvenirRegular.otf);
+}
+
 body {
   margin: 0
 }
@@ -40,7 +45,7 @@ hr {
 }
 
 pre {
-  font-family: monospace, monospace;
+  font-family: 'monospace, monospace';
   font-size: 1em
 }
 
@@ -270,7 +275,9 @@ dd {
 }
 
 .icons {
-  height:60px
+  height:60px;
+  background: linear-gradient(57deg, #f0a13a, #d65d29);
+  border-radius: 30px;
 }
 
 
@@ -361,61 +368,62 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   clear: both;
   color: #202B36;
-  font-family: "PT Serif", serif;
+  font-family: "AvenirRegular", serif;
+  font-size: 1em;
   font-weight: 700
 }
 
 h1, .h1 {
-  font-size: 36px;
-  line-height: 46px;
+  font-size: 42px;
+  line-height: 48px;
   letter-spacing: -0.2px
 }
 
 @media (min-width: 641px) {
   h1, .h1 {
-    font-size: 42px;
+    font-size: 48px;
     line-height: 52px;
     letter-spacing: -0.1px
   }
 }
 
 h2, .h2 {
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -0.1px
+}
+
+@media (min-width: 641px) {
+  h2, .h2 {
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: -0.2px
+  }
+}
+
+h3, .h3, blockquote {
   font-size: 30px;
   line-height: 40px;
   letter-spacing: -0.1px
 }
 
 @media (min-width: 641px) {
-  h2, .h2 {
+  h3, .h3, blockquote {
     font-size: 36px;
     line-height: 46px;
-    letter-spacing: -0.2px
-  }
-}
-
-h3, .h3, blockquote {
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: -0.1px
-}
-
-@media (min-width: 641px) {
-  h3, .h3, blockquote {
-    font-size: 30px;
-    line-height: 40px;
     letter-spacing: -0.1px
   }
 }
 
 h4, h5, h6, .h4, .h5, .h6 {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 27px;
   letter-spacing: -0.1px
 }
 
 @media (min-width: 641px) {
   h4, h5, h6, .h4, .h5, .h6 {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 30px;
     letter-spacing: -0.1px
   }
@@ -621,7 +629,7 @@ button, input, select, textarea, label {
   text-transform: uppercase;
   text-decoration: none;
   background-color: #fff;
-  color: #00A2B8 !important;
+  color: #d65d29 !important;
   border: none;
   height: auto;
   left: 8px;
@@ -649,11 +657,11 @@ button, input, select, textarea, label {
 }
 
 .text-primary {
-  color: #00A2B8
+  color: #d65d29/*#00A2B8*/
 }
 
 .text-secondary {
-  color: #00C6A7
+  color: #f0a13a/*#00C6A7*/
 }
 
 .has-top-divider {
@@ -1061,7 +1069,7 @@ button, input, select, textarea, label {
   text-transform: uppercase;
   text-decoration: none !important;
   background-color: #fff;
-  color: #00A2B8 !important;
+  color: #d65d29 !important;
   border: none;
   border-radius: 2px;
   cursor: pointer;
@@ -1156,8 +1164,8 @@ button, input, select, textarea, label {
   left: 0;
   width: 100%;
   height: 800px;
-  background: #0f8a9d;
-  background: linear-gradient(57deg, #00C6A7 0%, #1E4D92 100%);
+  background: #d67d29;
+  background: linear-gradient(57deg, #d65d29 0%, #f0a13a 110%);
   -webkit-transform-origin: 0;
   transform-origin: 0;
   -webkit-transform: skewY(-12deg);
@@ -1220,9 +1228,9 @@ button, input, select, textarea, label {
 
 .hero-media {
   position: relative;
-  height: 200px;
+  height: 250px;
   margin-top: 40px;
-  background: #fff;
+  background: #000;
   border-radius: 4px 4px 0 0
 }
 
@@ -1249,7 +1257,7 @@ button, input, select, textarea, label {
 
   .hero-media {
     margin-top: 64px;
-    height: 400px
+    height: 450px
   }
 }
 
